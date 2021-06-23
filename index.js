@@ -22,7 +22,7 @@ else if(grade >= 65) {
     console.log('D')
 }
 else if(grade >= 60) {
-    console.log('F')
+    console.log('E')
 }
 else {
     console.log('Failed')
