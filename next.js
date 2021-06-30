@@ -92,7 +92,7 @@
 // console.log(country.substring(3))      // land
 
 
-let password = '12gerg@sfd'
+let password = '12g'
 if(password.includes('@')) {
     console.log ('Strong password');
 }
@@ -101,6 +101,6 @@ else if(password.length >= 4 && password.length <= 12){
     console.log('Correct password');
 }
 
-else{
+else{a
     console.log('Incorrect password')
 }

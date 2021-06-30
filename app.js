@@ -22,19 +22,19 @@
 // }
 
 // task 5
-// for(let i=0; i<100; i+=2) {
-//     if(i%5==0 || i%3==0)
-//     console.log(i)
-// }
+for(let i=0; i<100; i+=2) {
+    if(i%5==0 || i%3==0)
+    console.log(i)
+}
 
 // for(let i=1; i<50; i++) {
 //     if(i%3!=0)
 //     console.log(i)
 // }
 
-let string = 'Pdp academy'
-string = string.repeat(10)
-console.log(string)
+// let string = 'Pdp academy'
+// string = string.repeat(10)
+// console.log(string)
 
 // for(i=0; i<10; i++){
 //     string = string.replace('Pdp', 'It')
@@ -42,35 +42,46 @@ console.log(string)
 // console.log(string)
 // console.log(string.length)
 // let oo = console.log(string.indexOf('', 5))
-let total = 0;
-for(let i=0; i<=string.length; i++){
-    if(string[i] == 'P' || string[i] == 'p'){
-        total++
-    }
-}
+// let total = 0;
+// for(let i=0; i<=string.length; i++){
+//     if(string[i] == 'P' || string[i] == 'p'){
+//         total++
+//     }
+// }
 
-console.log(total)
+// console.log(total)
 
-let all = 0;
-for(let i=0; i<=string.length; i++){
-    if(string[i] == 'm') {
-        all++
-    }
-}
-console.log(all)
+// let all = 0;
+// for(let i=0; i<=string.length; i++){
+//     if(string.charAt(i) == 'm') {
+//         all++
+//     }
+// }
+// console.log(all)
 
-var allP = 20 
-    allM = 10
-    ortaA  = (allP + allM)/2
+// var allP = 20 
+//     allM = 10
+//     ortaA  = (allP + allM)/2
     
- console.log(ortaA)
+//  console.log(ortaA)
 
-var allP = 20
-    allM = 10
-    ortaG = Math.sqrt(allP*allM)
+// var allP = 20
+//     allM = 10
+//     ortaG = Math.sqrt(allP*allM)
 
-console.log(ortaG)    
+// console.log(ortaG)    
 
+// var number = 123456
+
+// var result = number.toString()
+//     console.log(number)
+//     count = 0
+// for(let i=0; i<number.length; i++){
+//     // console.log(count= count+ +result[i])
+//     if(i%3==0)
+    
+// }
+// console.log(number[i])
 
 
 
