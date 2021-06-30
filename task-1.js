@@ -1,9 +1,9 @@
-// let str1 = 'ABF'
-// let str2 = 'CAB'
+let str1 = 'ABF'
+let str2 = 'CAB'
 
-// for(let i = 0; i < str1.length; i++){
-//     console.log(str2.includes(str1[i]) && str1.includes(str2[i]))
-// }
+for(let i = 0; i < str1.length; i++){
+    console.log(str2.includes(str1[i]) && str1.includes(str2[i]))
+}
 
 
 
