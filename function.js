@@ -28,16 +28,16 @@
 
 
 
-// function round(number) {
-//    number = number * 10;
-//    var a = parseInt(number / 10)
-//    var b = number % 10;
-//    if(b>=5) {
-//       return a+1;
-//    }
-//    return a;
-// }
-// console.log(round(34.5))
+function round(number) {
+   number = number * 10;
+   var a = parseInt(number / 10)
+   var b = number % 10;
+   if(b>=5) {
+      return a+1;
+   }
+   return a;
+}
+console.log(round(2.8))
 
 
 // function pow(number) {
@@ -96,9 +96,9 @@
 // min([2,5,9,5,3,0,1,7,5,3,-2,1])
 
 
-function max(number) {
-    let large = number.sort((a,b) => a-b)
-    let lastInd = large.length-1
-    console.log(large[lastInd])
-}
-max([25,5,9,5,3,0,1,7,5,3,-2,1])
+// function max(number) {
+//     let large = number.sort((a,b) => a-b)
+//     let lastInd = large.length-1
+//     console.log(large[lastInd])
+// }
+// max([25,5,9,5,3,0,1,7,5,3,-2,1])
